@@ -23,6 +23,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  nextjs,
+  wordpress,
 } from '../assets';
 
 export const navLinks = [
@@ -105,12 +107,12 @@ const technologies = [
     icon: git,
   },
   {
-    name: 'figma',
-    icon: figma,
+    name: 'nextjs',
+    icon: nextjs,
   },
   {
-    name: 'docker',
-    icon: docker,
+    name: 'wordpress',
+    icon: wordpress,
   },
 ];
 
