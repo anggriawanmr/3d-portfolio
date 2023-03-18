@@ -169,67 +169,67 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'Refine Dashboard',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      'Full-stack MERN dashboard application with complete CRUD functionality on properties, authentication using Google Login, pagination, sorting, filtering on properties.',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'materialui',
         color: 'green-text-gradient',
       },
       {
-        name: 'tailwind',
+        name: 'typescript',
         color: 'pink-text-gradient',
       },
     ],
     image: carrent,
-    source_code_link: 'https://github.com/',
+    source_code_link: 'https://github.com/anggriawanmr/refine_dashboard_client',
   },
   {
-    name: 'Job IT',
+    name: 'Crowdfunding App',
     description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+      'A Web3 Blockchain Crowdfunding Platform with a stunning design, connected to the blockchain, metamask pairing, interaction with smart contracts, sending Ethereum through the blockchain network, writing solidity code, and, most importantly, the ability to create create, view, and donate to crowdfunding campaigns directly through the blockchain.',
+    tags: [
+      {
+        name: 'thirdweb',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'hardhat',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'ethers',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: jobit,
+    source_code_link: 'https://github.com/anggriawanmr/crowdfunding',
+  },
+  {
+    name: 'A Spotify Clone',
+    description:
+      'A fully-fledged music player, search, lyrics, song exploration features, search, popular music around you, worldwide top charts, and much more.',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'restapi',
+        name: 'tailwind',
         color: 'green-text-gradient',
       },
       {
-        name: 'scss',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: jobit,
-    source_code_link: 'https://github.com/',
-  },
-  {
-    name: 'Trip Guide',
-    description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
+        name: 'rapidapi',
         color: 'pink-text-gradient',
       },
     ],
     image: tripguide,
-    source_code_link: 'https://github.com/',
+    source_code_link: 'https://github.com/anggriawanmr/lyriks',
   },
 ];
 
